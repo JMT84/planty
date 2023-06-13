@@ -1,0 +1,43 @@
+/*
+ Theme Name:   Planty
+ Theme URI:    http://localhost:8888/PLANTY
+ Description:  Thème Planty basé sur le thème BlankSlate
+ Author:       JMT84
+ Author URI:   http://localhost:8888/PLANTY/admin
+ Template:     BlankSlate
+ Version:      2023
+ License:      GNU General Public License v3 or Later
+ License URI:  https://www.gnu.org/licenses/gpl.html
+ Tags:         boisson, énergisante, naturelle
+ Text Domain:  planty
+
+BlankSlate WordPress Theme © 2011-2023 TidyThemes
+BlankSlate is distributed under the terms of the GNU GP
+*/
+
+body{margin: 0;}
+
+.elementor-container.elementor-column-gap-no{
+    justify-content: space-around;}
+
+.commander a{
+    display: flex;
+    align-items: center;
+    background-color: #DC9F96; 
+    color:#ffffff !important;
+    height: 80px;}
+
+.text-nous-rencontrer{
+    display: flex;
+    justify-content: center;}
+
+.vignette-co{display: flex;
+    height: 139px;
+}
+
+#bouton-commander{
+    width: 198px;
+    height: 55px;}
+
+.elementor-widget-containe{
+    width: 140px;}
