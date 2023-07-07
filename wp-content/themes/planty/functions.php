@@ -6,13 +6,13 @@
 }
 function assets()
 {
-    wp_enqueue_style('style', get_stylesheet_directory_uri() . '/css/main.css', array(), '1.0');
+    wp_enqueue_style('style', get_stylesheet_directory_uri() . '/css/style.css', array(), '1.0');
 }
 add_action('wp_enqueue_scripts', 'assets');
 
 function add_search_form($items, $args) {
     if( is_user_logged_in() && $args->menu_id == 'menu-1-0b6b78c' ){
-    $items .= '<li><a href="http://localhost/planty/wp-admin" class="admin">Admin</a></li>'; 
+    $items .= '<li><a href="http://localhost:8888/PLANTY" id="admin">Admin</a></li>'; 
     }
     else{
     }

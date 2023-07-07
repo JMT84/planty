@@ -133,40 +133,40 @@ msgstr "Options du sélecteur de date"
 msgid "The WPForms Stripe addon is out of date. To avoid payment processing issues, please upgrade the Stripe addon to the latest version."
 msgstr "Le module Stripe de WPForms est obsolète. Pour éviter les problèmes de traitement des paiements, veuillez mettre à niveau le module Stripe vers la dernière version."
 
-#: src/Integrations/Stripe/Process.php:780
+#: src/Integrations/Stripe/Process.php:799
 msgid "Stripe payment stopped by error"
 msgstr "Paiement Stripe interrompu par une erreur."
 
-#: src/Integrations/Stripe/Process.php:778
+#: src/Integrations/Stripe/Process.php:797
 msgid "Stripe subscription payment stopped by error"
 msgstr "Paiement d’abonnement Stripe interrompu par une erreur"
 
 #. translators: %s - error message.
-#: src/Integrations/Stripe/Process.php:771
+#: src/Integrations/Stripe/Process.php:790
 msgid "Credit Card Payment Error: %s"
 msgstr "Erreur de paiement par carte bancaire : %s"
 
-#: src/Integrations/Stripe/Process.php:626
+#: src/Integrations/Stripe/Process.php:645
 msgid "Stripe subscription payment stopped, customer email not found."
 msgstr "Paiement d’abonnement Stripe interrompu. E-mail client non trouvé."
 
-#: src/Integrations/Stripe/Process.php:621
+#: src/Integrations/Stripe/Process.php:640
 msgid "Stripe subscription payment stopped, missing form settings."
 msgstr "Paiement d’abonnement Stripe interrompu. Réglages de formulaire manquants."
 
-#: src/Integrations/Stripe/Process.php:532
+#: src/Integrations/Stripe/Process.php:551
 msgid "Stripe payment stopped, amount less than minimum charge required."
 msgstr "Paiement Stripe interrompu. Montant inférieur aux frais minimum nécessaires."
 
-#: src/Integrations/Stripe/Process.php:528
+#: src/Integrations/Stripe/Process.php:547
 msgid "Stripe payment stopped, invalid/empty amount."
 msgstr "Paiement Stripe interrompu. Montant non valide/vide."
 
-#: src/Integrations/Stripe/Process.php:523
+#: src/Integrations/Stripe/Process.php:542
 msgid "Stripe payment stopped, missing payment fields."
 msgstr "Paiement Stripe interrompu. Champs de paiement manquants."
 
-#: src/Integrations/Stripe/Process.php:517
+#: src/Integrations/Stripe/Process.php:536
 msgid "Stripe payment stopped, missing keys."
 msgstr "Paiement Stripe interrompu. Clés manquantes."
 
@@ -664,79 +664,80 @@ msgstr "En direct"
 msgid "Currency"
 msgstr "Devise"
 
-#: src/Admin/Payments/Views/Single.php:641
+#: src/Admin/Payments/Views/Single.php:699
 msgid "Empty"
 msgstr "Vide"
 
-#: src/Admin/Payments/Views/Single.php:518
+#: src/Admin/Payments/Views/Single.php:572
 msgid "Payment Method"
 msgstr "Moyen de paiement"
 
-#: src/Admin/Payments/Views/Single.php:514
+#: src/Admin/Payments/Views/Single.php:568
 msgid "Customer IP Address"
 msgstr "Adresse IP du client"
 
-#: src/Admin/Payments/Views/Single.php:509
+#: src/Admin/Payments/Views/Single.php:563
 msgid "Customer ID"
 msgstr "ID du client"
 
 #. translators: %s - credit card expiry date.
-#: src/Admin/Payments/Views/Single.php:442
+#: src/Admin/Payments/Views/Single.php:461
 msgid "Expires %s"
 msgstr "Expire le %s"
 
-#: src/Admin/Payments/Views/Single.php:355
+#: src/Admin/Payments/Views/Single.php:368
 msgid "Renewal Date"
 msgstr "Date de renouvellement"
 
-#: src/Admin/Payments/Views/Single.php:348
+#: src/Admin/Payments/Views/Single.php:361
 msgid "Times Billed"
 msgstr "Nombre de facturations"
 
-#: src/Admin/Payments/Views/Single.php:341
+#: src/Admin/Payments/Views/Single.php:354
 msgid "Billing Cycle"
 msgstr "Cycle de facturation"
 
-#: src/Admin/Payments/Views/Single.php:333
+#: src/Admin/Payments/Views/Single.php:346
 msgid "Lifetime Total"
 msgstr "Total durée de vie"
 
-#: src/Admin/Payments/Views/Single.php:322
+#: src/Admin/Payments/Views/Single.php:335
 msgid "Subscription Details"
 msgstr "Détails de l’abonnement"
 
-#: src/Admin/Payments/Views/Single.php:294
+#: src/Admin/Education/Fields.php:220 src/Admin/Payments/Views/Single.php:306
+#: src/Admin/Payments/Views/Single.php:576
 msgid "Coupon"
 msgstr "Code promo"
 
-#: src/Admin/Payments/Views/Single.php:286
+#: src/Admin/Payments/Views/Single.php:298
 msgid "Method"
 msgstr "Moyen"
 
-#: src/Admin/Payments/Views/Single.php:280
+#: src/Admin/Payments/Views/Single.php:292
 #: src/Db/Payments/ValueValidator.php:126
 msgid "One-time"
 msgstr "Unique"
 
-#: src/Admin/Payments/Views/Single.php:266
+#: src/Admin/Payments/Views/Single.php:278
 msgid "Refund"
 msgstr "Rembourser"
 
 #. translators: %s - Payment Gateway Name.
-#: src/Admin/Payments/Views/Single.php:263
-#: src/Admin/Payments/Views/Single.php:325
+#: src/Admin/Payments/Views/Single.php:275
+#: src/Admin/Payments/Views/Single.php:338
 msgid "View in %s"
 msgstr "Voir dans %s"
 
-#: src/Admin/Payments/Views/Single.php:259
+#: src/Admin/Payments/Views/Single.php:271
 msgid "Payment Details"
 msgstr "Détails du paiement"
 
-#: src/Admin/Payments/Views/Single.php:127
+#: src/Admin/Payments/Views/Single.php:139
 msgid "It looks like the payment you are trying to access is no longer available."
 msgstr "Il semble que le paiement auquel vous essayez d’accéder ne soit plus disponible."
 
-#: src/Admin/Payments/Views/Single.php:117
+#: src/Admin/Payments/Views/Single.php:129
 msgid "It looks like the provided payment ID is not valid."
 msgstr "Il semble que l’ID de paiement fourni ne soit pas valide."
 
@@ -764,7 +765,7 @@ msgid "Last 4 digits of credit card"
 msgstr "4 derniers chiffres de la carte bancaire"
 
 #: src/Admin/Payments/Views/Overview/Table.php:423
-#: src/Admin/Payments/Views/Single.php:504
+#: src/Admin/Payments/Views/Single.php:558
 msgid "Subscription ID"
 msgstr "ID de l’abonnement"
 
@@ -775,7 +776,7 @@ msgid "Customer Email"
 msgstr "E-mail du client"
 
 #: src/Admin/Payments/Views/Overview/Table.php:421
-#: src/Admin/Payments/Views/Single.php:499
+#: src/Admin/Payments/Views/Single.php:553
 msgid "Transaction ID"
 msgstr "ID de la transaction"
 
@@ -816,7 +817,7 @@ msgid "Status"
 msgstr "État "
 
 #: src/Admin/Payments/Views/Overview/Table.php:77
-#: src/Admin/Payments/Views/Single.php:280
+#: src/Admin/Payments/Views/Single.php:292
 #: src/Db/Payments/ValueValidator.php:142
 msgid "Subscription"
 msgstr "Abonnement"
@@ -826,24 +827,20 @@ msgid "Gateway"
 msgstr "Passerelle"
 
 #. translators: %s - WPForms.com Upgrade page URL.
-#: src/Admin/Payments/Views/Overview/Page.php:301
+#: src/Admin/Payments/Views/Overview/Page.php:307
 msgid "If you'd like to use another payment gateway, please consider <a href='%s'>upgrading to WPForms Pro</a>."
 msgstr "Si vous souhaitez utiliser une autre passerelle de paiement, veuillez envisager d’effectuer une <a href='%s'>mise à niveau vers WPForms Pro</a>."
 
 #. translators: %s - WPForms Addons admin page URL.
-#: src/Admin/Payments/Views/Overview/Page.php:290
+#: src/Admin/Payments/Views/Overview/Page.php:296
 msgid "Other payment gateways such as <strong>PayPal</strong> and <strong>Square</strong> can be installed from the <a href=\"%s\">Addons screen</a>."
 msgstr "D’autres passerelles de paiement telles que <strong>PayPal</strong> et <strong>Square</strong> peuvent être installées depuis l’<a href=\"%s\">écran Modules</a>."
 
-#: src/Admin/Payments/Views/Overview/Page.php:287
+#: src/Admin/Payments/Views/Overview/Page.php:293
 msgid "First you need to set up a payment gateway. We've partnered with <strong>Stripe</strong> to bring easy payment forms to everyone.&nbsp;"
 msgstr "Vous devez d’abord mettre en place une passerelle de paiement. Nous nous sommes associés à <strong>Stripe</strong> pour offrir des formulaires de paiement faciles à tous les utilisateurs et utilisatrices.&nbsp;"
 
-#: src/Admin/Payments/Views/Overview/Chart.php:219
-#: src/Admin/Payments/Views/Single.php:295
-msgid "Coming Soon!"
-msgstr "Bientôt disponible !"
-
+#: src/Admin/Payments/Views/Coupons/Education.php:53
 #: src/Admin/Payments/Views/Overview/Chart.php:218
 msgid "Coupons"
 msgstr "Codes promo"
@@ -866,6 +863,7 @@ msgid "Please select a different period or check back later."
 msgstr "Veuillez sélectionner une période différente ou revenez ultérieurement."
 
 #: src/Admin/Payments/Views/Overview/Chart.php:148
+#: src/Admin/Payments/Views/Overview/Page.php:127
 msgid "No payments for selected period"
 msgstr "Aucun paiement pour la période sélectionnée"
 
@@ -902,15 +900,15 @@ msgstr[1] "%d paiements ont été définitivement supprimés."
 msgid "Are you sure you want to do this?"
 msgstr "Confirmez-vous cette action ?"
 
-#: src/Admin/Payments/ScreenOptions.php:120
+#: src/Admin/Payments/ScreenOptions.php:124
 msgid "Additional information"
 msgstr "Informations supplémentaires"
 
-#: src/Admin/Payments/ScreenOptions.php:115
+#: src/Admin/Payments/ScreenOptions.php:119
 msgid "Advanced details"
 msgstr "Détails avancés"
 
-#: src/Admin/Payments/ScreenOptions.php:89
+#: src/Admin/Payments/ScreenOptions.php:93
 msgid "Number of payments per page:"
 msgstr "Nombre de paiements par page :"
 
@@ -1032,11 +1030,11 @@ msgstr "Livre sterling"
 msgid "U.S. Dollar"
 msgstr "Dollar US"
 
-#: includes/fields/class-base.php:3011
+#: includes/fields/class-base.php:3012
 msgid "items"
 msgstr "éléments"
 
-#: includes/fields/class-base.php:3010
+#: includes/fields/class-base.php:3011
 msgid "Dynamic choices"
 msgstr "Choix dynamiques"
 
@@ -1060,12 +1058,12 @@ msgid "Standard and Payment Fields"
 msgstr "Champs standards et de paiement"
 
 #: includes/admin/builder/class-builder.php:555
-#: includes/fields/class-base.php:3021
+#: includes/fields/class-base.php:3022
 msgid "terms"
 msgstr "termes"
 
 #: includes/admin/builder/class-builder.php:554
-#: includes/fields/class-base.php:3016
+#: includes/fields/class-base.php:3017
 msgid "posts"
 msgstr "publications"
 
@@ -1074,7 +1072,7 @@ msgstr "publications"
 #. translators: %1$s - data source name (e.g. Categories, Posts), %2$s - data
 #. source type (e.g. post type, taxonomy).
 #: includes/admin/builder/class-builder.php:549
-#: includes/fields/class-base.php:3030
+#: includes/fields/class-base.php:3031
 msgid "This field will not be displayed in your form since there are no %2$s belonging to %1$s."
 msgstr "Ce champ ne sera pas affiché dans votre formulaire, car aucun·e %2$s n’appartient à %1$s."
 
@@ -1996,10 +1994,6 @@ msgstr "Lire le guide"
 msgid "Start Building"
 msgstr "Démarrer la construction"
 
-#: src/Admin/Notifications/EventDriven.php:523
-msgid "We’re grateful that you chose WPForms for your website! Now that you’ve installed the plugin, you’re less than 5 minutes away from publishing your first form. To make it easy, we’ve got 600+ form templates to get you started!"
-msgstr "Nous vous sommes reconnaissants d’avoir choisi WPForms pour votre site ! Maintenant que vous avez installé l’extension, vous êtes à moins de 5 minutes de la publication de votre premier formulaire. Pour vous faciliter la tâche, nous avons plus de 600 modèles de formulaires pour vous aider à démarrer !"
-
 #: src/Admin/Notifications/EventDriven.php:522
 msgid "Welcome to WPForms!"
 msgstr "Bienvenue dans WPForms !"
@@ -2473,7 +2467,7 @@ msgstr "Vous êtes sur le point d’enregistrer une révision de formulaire. Con
 #. 25 at 12:57pm".
 #. translators: %1$s - date, %2$s - time when log was created, e.g. "Oct 22 at
 #. 11:11am".
-#: src/Admin/Payments/Views/Single.php:681 src/Admin/Revisions.php:336
+#: src/Admin/Payments/Views/Single.php:739 src/Admin/Revisions.php:336
 #: templates/admin/payments/single/log.php:35
 msgid "%1$s at %2$s"
 msgstr "%1$s à %2$s"
@@ -2725,10 +2719,6 @@ msgstr "Déverrouillez tous les champs et fonctionnalités, y compris le texte e
 #: includes/admin/class-about.php:550 lite/wpforms-lite.php:617
 msgid "Store and manage form entries in WordPress"
 msgstr "Stocker et gérer les entrées de formulaire dans WordPress"
-
-#: includes/admin/class-about.php:546 lite/wpforms-lite.php:616
-msgid "600+ customizable form templates"
-msgstr "Plus de 600 modèles de formulaires personnalisables"
 
 #: includes/admin/builder/class-builder.php:567
 msgid "This field cannot be duplicated."
@@ -3411,6 +3401,7 @@ msgstr "ID du formulaire : %d"
 msgid "Survey Results"
 msgstr "Résultats de l’enquête"
 
+#: includes/functions/education.php:35
 #: templates/education/admin/settings/geolocation/submit.php:32
 msgid "Install & Activate"
 msgstr "Installer et activer"
@@ -3583,15 +3574,6 @@ msgstr "Désactiver le stockage des entrées pour ce formulaire empêchera compl
 msgid "Enable hCaptcha"
 msgstr "Activer hCaptcha"
 
-#: includes/admin/class-about.php:1469
-msgid "Form Abandonment, Conversational Forms, Lead Forms, Frontend Post Submission, User Registration, Geolocation, Google Sheets, and more (27 total)"
-msgstr "Abandon de formulaire, formulaires de conversation, envoi par interface publique, enregistrement des comptes, géolocalisation, et plus encore (27 au total)"
-
-#: includes/admin/class-about.php:1476 includes/admin/class-about.php:1483
-#: includes/admin/class-about.php:1490
-msgid "Form Abandonment, Conversational Forms, Lead Forms, Frontend Post Submission, User Registration, Geolocation, Webhooks, Google Sheets, and more (30+ total)"
-msgstr "Abandon de formulaire, formulaires de conversation, envoi par interface publique, enregistrement des comptes, géolocalisation, et plus encore (30 au total)"
-
 #: includes/admin/admin.php:209
 msgid "Could not disconnect this account."
 msgstr "Ce compte n’a pas pu être déconnecté."
@@ -3601,7 +3583,7 @@ msgstr "Ce compte n’a pas pu être déconnecté."
 msgid "For details, including how this looks and works for your site's visitors, please check out <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">our doc</a>."
 msgstr "Pour plus de détails, notamment sur l’aspect et le fonctionnement de ce système pour les visiteurs de votre site, veuillez consulter notre <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">documentation</a>."
 
-#: src/Admin/Payments/ScreenOptions.php:136 src/Logger/ListTable.php:453
+#: src/Admin/Payments/ScreenOptions.php:140 src/Logger/ListTable.php:453
 #: templates/admin/components/datepicker.php:65
 msgid "Apply"
 msgstr "Appliquer"
@@ -3643,7 +3625,7 @@ msgstr "Titre du journal"
 msgid "Log ID"
 msgstr "ID du journal"
 
-#: src/Admin/Payments/ScreenOptions.php:116 src/Logger/ListTable.php:41
+#: src/Admin/Payments/ScreenOptions.php:120 src/Logger/ListTable.php:41
 #: src/Logger/Log.php:107 templates/admin/payments/single/log.php:19
 msgid "Log"
 msgstr "Journal"
@@ -3732,7 +3714,7 @@ msgid "Your session expired. Please reload the builder."
 msgstr "Votre session a expiré. Veuillez recharger le constructeur."
 
 #: includes/admin/builder/class-builder.php:958
-#: src/Admin/Payments/Views/Overview/Page.php:171
+#: src/Admin/Payments/Views/Overview/Helpers.php:83
 msgid "Help"
 msgstr "Aide"
 
@@ -5188,7 +5170,7 @@ msgstr "Un formulaire vide a été envoyé."
 
 #. translators: %d - field ID.
 #: includes/emails/class-emails.php:619 includes/emails/class-emails.php:664
-#: src/Admin/Payments/Views/Single.php:636
+#: src/Admin/Payments/Views/Single.php:694
 msgid "Field ID #%d"
 msgstr "ID du champ #%d"
 
@@ -5509,7 +5491,7 @@ msgstr "Invisible reCAPTCHA v2"
 
 #: includes/fields/class-base.php:1051
 #: src/Admin/Payments/Views/Overview/Table.php:71
-#: src/Admin/Payments/Views/Single.php:279
+#: src/Admin/Payments/Views/Single.php:291
 #: src/Admin/Settings/Captcha/ReCaptcha.php:58
 #: src/Admin/Settings/Captcha/Turnstile.php:95
 msgid "Type"
@@ -5662,10 +5644,6 @@ msgstr "Module Captcha personnalisé inclus"
 msgid "No Addons Included"
 msgstr "Aucun module inclus"
 
-#: includes/admin/class-about.php:1442
-msgid "Multi-page Forms, File Upload Forms, Multiple Form Notifications, File Upload and CSV Attachments, Conditional Form Confirmation, Custom CAPTCHA, Offline Forms, Signature Forms, Save and Resume Form"
-msgstr "Formulaires à pages multiples, formulaires de téléversement de fichier, notifications multiples de formulaire, confirmation de formulaire conditionnel, CAPTCHA personnalisé, formulaires hors-ligne, signature de formulaires, sauvegarde et reprise de formulaire"
-
 #: includes/admin/class-about.php:1441
 msgid "All Advanced Features"
 msgstr "Toutes les fonctionnalités avancées"
@@ -5713,10 +5691,6 @@ msgstr "Constant Contact uniquement"
 #: includes/admin/class-about.php:1265 includes/admin/class-about.php:1272
 msgid "Limited Marketing Integration"
 msgstr "Intégration marketing limitée"
-
-#: includes/admin/class-about.php:1227
-msgid "All Form Templates including Bonus 600+ pre-made form templates"
-msgstr "Tous les modèles de formulaire, y compris les plus de 600 modèles bonus de formulaires pré-enregistrés"
 
 #: includes/admin/class-about.php:1209 includes/admin/class-about.php:1215
 #: includes/admin/class-about.php:1221
@@ -6083,8 +6057,8 @@ msgstr "Par défaut"
 
 #: includes/admin/builder/panels/class-payments.php:18
 #: includes/admin/class-menu.php:85 includes/admin/class-menu.php:86
-#: src/Admin/Builder/Help.php:152 src/Admin/Payments/Payments.php:157
-#: src/Admin/Payments/Views/Overview/Page.php:113
+#: src/Admin/Builder/Help.php:152 src/Admin/Payments/Payments.php:167
+#: src/Admin/Payments/Views/Overview/Page.php:125
 #: src/Admin/Settings/Payments.php:47 src/Admin/Settings/Payments.php:78
 msgid "Payments"
 msgstr "Paiements"
@@ -6301,6 +6275,7 @@ msgid "is"
 msgstr "est"
 
 #: includes/admin/builder/class-builder.php:616
+#: src/Requirements/Requirements.php:1022
 msgid "or"
 msgstr "ou"
 
@@ -7009,7 +6984,7 @@ msgid "Activated"
 msgstr "Activé"
 
 #: includes/admin/admin.php:153 includes/admin/admin.php:206
-#: includes/admin/class-about.php:411
+#: includes/admin/class-about.php:411 includes/functions/education.php:30
 #: templates/education/admin/settings/geolocation/submit.php:24
 msgid "Activate"
 msgstr "Activer"
@@ -7017,7 +6992,7 @@ msgstr "Activer"
 #: includes/admin/admin.php:176 includes/admin/builder/class-builder.php:558
 #: includes/admin/class-editor.php:158 src/Admin/Builder/Templates.php:144
 #: src/Admin/Education/Core.php:91 src/Admin/Forms/Tags.php:453
-#: src/Admin/Payments/Views/Single.php:328
+#: src/Admin/Payments/Views/Single.php:341
 #: src/Lite/Admin/Education/LiteConnect.php:226
 #: templates/admin/components/datepicker.php:64
 #: templates/admin/forms/bulk-edit-tags.php:30
@@ -9727,9 +9702,11 @@ msgid "Total Entries by Form"
 msgstr "Total des entrées par formulaires"
 
 #: includes/admin/class-menu.php:371 includes/admin/class-welcome.php:333
-#: src/Admin/FlyoutMenu.php:112 src/Admin/Tools/Views/Importer.php:229
+#: includes/functions/education.php:71 src/Admin/FlyoutMenu.php:112
+#: src/Admin/Tools/Views/Importer.php:229
 #: src/Lite/Admin/DashboardWidget.php:294
 #: src/Lite/Admin/Settings/Access.php:242 templates/builder/help.php:91
+#: templates/education/admin/payments/coupons.php:48
 #: templates/education/admin/settings/geolocation/submit.php:44
 msgid "Upgrade to WPForms Pro"
 msgstr "Mettre à niveau vers WPForms Pro"
@@ -9821,7 +9798,7 @@ msgid "%s addon"
 msgstr "Module %s"
 
 #: src/Admin/Payments/Views/Overview/Table.php:74
-#: src/Admin/Payments/Views/Single.php:271
+#: src/Admin/Payments/Views/Single.php:283
 #: src/Forms/Fields/PaymentTotal/Field.php:20
 msgid "Total"
 msgstr "Total"

@@ -17,22 +17,38 @@ BlankSlate is distributed under the terms of the GNU GP
 
 body{
     margin: 0;
-    padding: 0;}
+    padding: 0;
+}
 
-/* page d'acceuil ...............................................*/
+/* header ....................................................*/
 
-.elementor-container.elementor-column-gap-no{
+ /* menu admin .....................*/
+
+ #admin{
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     display: flex;
-    justify-content: space-around;}
+    justify-content: center;
+    padding: 30px;
+ }
+
+ /* bouton commander ...............*/
 
 #menu-item-752 a{
     display: flex;
     justify-content: center;
+    padding: 0%;
     background-color: #DC9F96; 
     color:#ffffff;
     font-family: syne;
     width: 236px;
     height: 80px;}
+
+/* page d'acceuil ...............................................*/
 
 .vignette-co{
     display: flex;
@@ -69,7 +85,7 @@ body{
     height: 237px;
 }
 
-/*bouton formulaire nous rencontrer....*/
+/* bouton formulaire nous rencontrer....*/
 
 .wpforms-submit-container{
     display: flex;
@@ -85,58 +101,64 @@ body{
     background-color: #E0B9B4;
 }
 
-/* page commander ............................................*/
+/* page commander ................................................*/
 
-/* formulaire infos commande ....*/
+/* formulaire infos commande ...........*/
 
 .deuxcolonnes{
     display:flex; 
     flex-direction:row;
-    column-gap: 69px;
+    column-gap: 45px;
     justify-content:center;
-  flex-wrap:wrap; 
+    flex-wrap:wrap;
+    margin: 0%;
 }
-.colonnes1 , .colonnes2 {
+
+.colonnes1, .colonnes2 {
     width:383px;
 }
-.benvoyer{
-    padding-left:55px
-}
-.commander, .benvoyer {
-    display:flex;
-    justify-content:center;
-}
-.commander {
-    padding-left: 70px;
-    padding-top: 30px;
-    height:75px;
-}
-input[type=submit]{
-    text-transform:none;
 
-}
-
-.deuxcolonnes h2 {
-    font-family: 'Syne';
+.titre{
+    color: #FFFFFF;
+    font-family: Syne;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    color: white;
+    line-height: normal;
+    margin-bottom: 20px;
 }
+
+.bouton-commander{
+    display:flex;
+    justify-content:center;
+    height:55px;
+}
+
+.bouton-commander input[type=submit]{
+    width: 198px;
+    height: 55px;
+}
+
 .border{
     border-right: 1px solid #FFFFFF;
 }
+
 @media all and (min-width: 700px) and (max-width: 1200px) {
     .deuxcolonnes{
-    display:flex; 
-    flex-direction:column;
-}
-    @media all and (min-width: 1100px){
-        .butoncommandes{
-
-            display:flex; 
-    flex-direction:column;
+        display:flex; 
+        flex-direction:column;
+        align-items: center;
+        }
+    .titre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
     }
-}
- }
+@media all and (min-width: 1100px){
+    .butoncommandes{
+        display:flex; 
+        flex-direction:column;
+        }
+    }
+
