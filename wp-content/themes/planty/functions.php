@@ -16,7 +16,7 @@ function add_search_form($items, $args) {
     }
     else{
     }
-
+    
   return $items;
 }
 add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);
